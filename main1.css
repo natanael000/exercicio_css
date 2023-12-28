@@ -1,0 +1,102 @@
+h1 {
+    color: white;
+}
+h2 {
+    color: blueviolet;
+}
+
+#politica h2 {
+    color: gold;
+}
+#Comunicacao h2 {
+    color: red;
+}
+
+#Economia h2 {
+    color:blue;
+}
+.creation-date {
+    color: #ccc;
+}
+* {
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header .container{
+    display: block;
+}
+
+body > header {
+    background-color:#6694d1;
+    padding: 14px 0;
+       
+}
+
+header li a {
+    color: white;
+    text-decoration: none;
+}
+header li  {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 16px;
+}
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img {
+    height: 150px;
+    width: 250px;
+}
+
+.articles article {
+    width: 30%;
+}
+
+section {
+    padding: 12px 0;
+}
+
+section h2,
+.articles article {
+    margin-bottom: 12px
+}
+
+.articles article h3 {
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.articles article p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.articles article h3 {
+    font-size: 20px;
+}
+section h2 {
+    font-size: 24px;
+}
+
+#Entrenimento {
+    background-color: rgb(243, 243, 248);
+}
+#Politica {
+    background-color: rgb(248, 242, 242);
+}
+#Comunicacao {
+    background-color: bisque;
+}
+#Economia{
+    background-color: aqua;
+}
